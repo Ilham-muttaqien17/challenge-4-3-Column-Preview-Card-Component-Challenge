@@ -15,21 +15,21 @@ export default function Home() {
           icon="/sedans.svg"
           title="SEDANS"
           paragraph="Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip."
-          txtButton="text-orange active:bg-orange active:text-white active:ring-white active:ring-1"
+          txtButton="text-orange hover:bg-orange hover:text-white hover:ring-white hover:ring-1"
         />
         <Card
           className="bg-cyan-100" 
           icon="/suvs.svg"
           title="SUVS"
           paragraph="Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures."
-          txtButton="text-cyan-100 active:bg-cyan-100 active:text-white active:ring-white active:ring-1"
+          txtButton="text-cyan-100 hover:bg-cyan-100 hover:text-white hover:ring-white hover:ring-1"
         />
         <Card
           className="bg-cyan-200 rounded-b-lg md:rounded-r-lg md:rounded-bl-none" 
           icon="/luxury.svg"
           title="LUXURY"
           paragraph="Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style."
-          txtButton="text-cyan-200 active:bg-cyan-200 active:text-white active:ring-white active:ring-1"
+          txtButton="text-cyan-200 hover:bg-cyan-200 hover:text-white hover:ring-white hover:ring-1"
         />
       </div>
       
